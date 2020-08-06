@@ -42,7 +42,7 @@ def run_clone(api_url):
     otp = getpass.getpass("OTP (Leave blank if none): ")
 
     try:
-        ctf.login(username=username,password=password,otp=otp)
+        ctf.login(username=username, password=password, otp=otp)
     except errors.APIError:
         log.error_and_quit("Could not login with supplied credentials")
     
