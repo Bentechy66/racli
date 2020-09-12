@@ -1,2 +1,2 @@
 # RACLI
-A CLI to interact with an RACTF CTF.
+A CLI to interact with a RACTF CTF.
